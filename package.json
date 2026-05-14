@@ -1,6 +1,6 @@
 {
   "name": "@cloudscapelabs/cordova-plugin-inappbrowser",
-  "version": "6.0.0",
+  "version": "6.0.0-cls1",
   "description": "Cordova InAppBrowser Plugin",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
