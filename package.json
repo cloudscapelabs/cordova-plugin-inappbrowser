@@ -1,7 +1,10 @@
 {
-  "name": "cordova-plugin-inappbrowser",
+  "name": "@cloudscapelabs/cordova-plugin-inappbrowser",
   "version": "6.0.0",
   "description": "Cordova InAppBrowser Plugin",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "types": "./types/index.d.ts",
   "cordova": {
     "id": "cordova-plugin-inappbrowser",
@@ -11,7 +14,7 @@
       "ios"
     ]
   },
-  "repository": "github:apache/cordova-plugin-inappbrowser",
+  "repository": "git://github.com/cloudscapelabs/cordova-plugin-inappbrowser.git",
   "bugs": "https://github.com/apache/cordova-plugin-inappbrowser/issues",
   "keywords": [
     "cordova",
@@ -27,30 +30,6 @@
   "scripts": {
     "test": "npm run lint",
     "lint": "eslint ."
-  },
-  "engines": {
-    "cordovaDependencies": {
-      "0.2.3": {
-        "cordova": ">=3.1.0"
-      },
-      "4.0.0": {
-        "cordova": ">=3.1.0",
-        "cordova-ios": ">=4.0.0"
-      },
-      "5.0.0": {
-        "cordova-android": ">=9.0.0",
-        "cordova-ios": ">=6.0.0",
-        "cordova": ">=9.0.0"
-      },
-      "6.0.0": {
-        "cordova-android": ">=10.0.0",
-        "cordova-ios": ">=6.0.0",
-        "cordova": ">=9.0.0"
-      },
-      "7.0.0": {
-        "cordova": ">100"
-      }
-    }
   },
   "author": "Apache Software Foundation",
   "license": "Apache-2.0",
