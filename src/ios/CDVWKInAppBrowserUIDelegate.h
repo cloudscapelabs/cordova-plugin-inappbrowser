@@ -18,6 +18,8 @@
  */
 
 #import <WebKit/WebKit.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface CDVWKInAppBrowserUIDelegate : NSObject <WKUIDelegate>{
     @private
